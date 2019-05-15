@@ -1,3 +1,7 @@
+* {
+  background-color: slategrey;
+}
+
 .NavBar {
     list-style-type: none;
     margin: 0;
@@ -32,7 +36,11 @@
   .active {
     background-color: rgb(21, 25, 223);
   }
-  .Main-text
+  .Main-box {
+    background-color: white;
+    width: 960px;
+  }
+
 
   body {
 text-align: center
