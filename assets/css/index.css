@@ -14,12 +14,13 @@
     height: 3vw;
   }
   
-  li {
+  .NB-Item {
     float: left;
     border-right: 1px solid #bbb;
   }
   
-  li a {
+  .NB-Item a {
+    float: right;
     display: block;
     color: white;
     text-align: center;
@@ -27,14 +28,19 @@
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  .NB-Item a:hover:not(.active) {
     background-color: #111;
   }
-  li a:hover {
+  .NB-Item a:hover {
     background-color: rgb(3, 5, 104);
   }
   .active {
     background-color: rgb(21, 25, 223);
+  }
+  .NavBar-Seperator{
+    height: 5px;
+    width: 100%;
+    background-color: black;      
   }
   .Main-box {
     background-color: white;
