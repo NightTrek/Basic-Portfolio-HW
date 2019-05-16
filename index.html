@@ -5,8 +5,9 @@
     <title> Daniel Stiegmans web Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="image" href="portfolio-background.PNG">
 </head>
 
 
@@ -18,7 +19,9 @@
         <!-- Nav-bar-flex creates a flexbox in a row -->
         <div class="Nav-Bar-Flex">
             <!-- Title LOGO ITEM -->
-            <div><h1 class="NB-Item">Daniel Steigman</h1></div>
+            <div>
+                <h1 class="NB-Item">Daniel Steigman</h1>
+            </div>
             <!-- Flexible box in the center to keep links right justified -->
             <div class="NB-box"></div>
             <div><a class="NB-link" id="active" href="index.html">About me</a></div>
@@ -37,21 +40,25 @@
 
 
 <!-- sets page background -->
-<body class="background">
-    <!-- Sets the main content box and pads the edges -->
-    <div class="Outer-box">
 
-        <!-- formating about us page begins -->
-        <h1>About me </h1>
-    
-        <img src="./assets/img/WIN_20190513_09_51_57_Pro.jpg" alt="profile" class="img">
-        <div class="Main-Box">
-            <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
-            <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
-            <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
-            <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
-            <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
-            <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
+<body class="background">
+    <div class="content">
+        <!-- Sets the main content box and pads the edges -->
+        <div class="Outer-box">
+            <!-- formating about us page begins -->
+            <div class="Main-Box">
+                <h1 id="underline">About me </h1>
+
+                <img src="./assets/img/WIN_20190513_09_51_57_Pro.jpg" alt="profile" class="img">
+                <div id="box-text">
+                <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
+                <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
+                <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
+                <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
+                <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
+                <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
+            </div>
+            </div>
         </div>
     </div>
 </body>
