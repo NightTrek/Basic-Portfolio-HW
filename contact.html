@@ -3,29 +3,78 @@
     <head>
         <title> Daniel Stiegmans web Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/contact.css">
     </head>
-    <header >  
-        <!-- <h1 style="text-align: left; font-size: 2vw">Daniel Steigman</h1> -->
-        <ul class="NavBar"> 
-            <li><h1 style="font-size:1.4vw;">Daniel Steigman</h1></li>
-            <li style="float:right"><a href="index.html">About me</a></li>
-            <li style="float:right"><a href="porfolio.html"> Portfolio</a></li>
-            <li style="float:right"><a class="active" href="contact.html"> Contact Me</a></li>
-        </li>
-        <!-- <li style="float:right"><a href="#about">About</a></li> -->
-        </ul>
-    </header>
+<!-- NAV BAR -->
 
+<header>
+        <!-- <h1 style="text-align: left; font-size: 2vw">Daniel Steigman</h1> -->
+        <div class="Nav">
+    
+            <div class="Nav-Bar-Flex">
+                <div>
+                    <h1 class="NB-Item">Daniel Steigman</h1>
+                </div>
+                <div class="NB-box"></div>
+                <div><a class="NB-link" href="index.html">About me</a></div>
+                <div><a class="NB-link" href="porfolio.html"> Portfolio</a></div>
+                <div><a class="NB-link" id="active" href="contact.html"> Contact Me</a></div>
+            </div>
+    
+    
+    
+        </div>
+        <!-- <hr/> -->
+    </header>
+    
+    
+    <!-- Nav Bar END******************************************* -->
     <br><br><br><br><br>
     <br><br>
     <br><br>
     
     <body>
-        <h1>Contact me</h1>
-        <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
-        <p> lorem ipsum dolor sit ren igrenis porano. Elerea mo te fa tem farado</p>
+  
+        <div class="contact-page">
+            <div class="contact-info">
+                <h2>Contact info</h2>
+                <ul id="contact-info">
+                    <li class="contact-data">Mobile phone: 650-388-8615</li>
+                    <li class="contact-data">Email: Daniels@dual4t.com</li>
+                    <li class="contact-data">Ethereum address: 0x206cADc6F2493c4082d029D6abC5a884708CCAf5</li>
+                </ul>
 
+            </div>
+            <div class="contact-form">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      
+                      <label for="phone">phone number</label>
+                      <input type="text" id="phone" name="phone" placeholder="phone number..">
+                  
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+
+
+
+        </div>
     </body>
     <br><br>
     <br><br><br>

@@ -1,7 +1,5 @@
-
 .Nav{
   width: 100%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .NavBar {
@@ -70,31 +68,61 @@
     background-color: rgb(3, 5, 104);
   
   }
-  .NavBar-Seperator{
-    height: 5px;
-    width: 100%;
-    background-color: black;      
-  }
-.Main-Box {
-    /* padding-left: 10vw; */
-    background-color: rgb(134, 164, 221);
-    width: 960px;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.Outer-box{
-padding-left: 25%;
-padding-right: 25%;
-width: 100%;
-background: #111;
-display: flex;
+ 
+.contact-page{
+  margin: 0 auto;
+  background-color: teal;
+  padding-top: 1vw;
 }
 
-.img{
-  float: left;
-  width: 25%;
-  height: 25%
+.contact-info{
+  margin: 0 auto;
+  padding-top: 4vw;
+  text-align: center;
+
 }
+
+#contact-info{
+  margin: 0 auto;
+  outline: 1vw turquoise;
+}
+
+.contact-data{
+
+}
+
+.contact-form{
+  margin: 0 auto;
+  padding-top: 4vw;
+  display: flex;
+  flex: 1;
+  width: 10vw;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
 
 
 
