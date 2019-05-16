@@ -12,13 +12,13 @@
 <!-- NAV BAR -->
 
 <header>
-    <!-- <h1 style="text-align: left; font-size: 2vw">Daniel Steigman</h1> -->
+    <!-- .Nav sets the width and font family -->
     <div class="Nav">
-
+        <!-- Nav-bar-flex creates a flexbox in a row -->
         <div class="Nav-Bar-Flex">
-            <div>
-                <h1 class="NB-Item">Daniel Steigman</h1>
-            </div>
+            <!-- Title LOGO ITEM -->
+            <div><h1 class="NB-Item">Daniel Steigman</h1></div>
+            <!-- Flexible box in the center to keep links right justified -->
             <div class="NB-box"></div>
             <div><a class="NB-link" href="index.html">About me</a></div>
             <div><a class="NB-link" id="active" href="porfolio.html"> Portfolio</a></div>
@@ -37,22 +37,37 @@
 
 
 <body>
-
-    <div class="portfolio">
-        <div>
-            <h3 class="portfolio-header">won a hackothon with sense.ly</h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolore natus quam. Eum, recusandae? Nam iure cupiditate Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam officia fugiat adipisci impedit, quaerat ex minus ea ullam itaque ducimus omnis, fuga similique laborum exercitationem id doloremque facere amet vel? fuga, non porro exercitationem, ea magni alias assumenda vero quam commodi quibusdam esse.</p>
+    <!-- Main page pox which sets 960px width and stages the porfolio flexbox in the middle -->
+    <div class="Outer-box">
+        <!-- portfolio flex box flexible rows -->
+        <div class="portfolio">
+            <div>
+                <h3 class="portfolio-header">won a hackothon with sense.ly</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolore natus quam. Eum, recusandae?
+                    Nam iure cupiditate Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam officia
+                    fugiat adipisci impedit, quaerat ex minus ea ullam itaque ducimus omnis, fuga similique laborum
+                    exercitationem id doloremque facere amet vel? fuga, non porro exercitationem, ea magni alias
+                    assumenda vero quam commodi quibusdam esse.</p>
+            </div>
+            <div>
+                <h3 class="portfolio-text">four years of project managment experience</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatum sit eius nihil iusto ad
+                    suscipit tenetur, ex neque aperiam repudiandae Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Voluptate, inventore beatae! Voluptatibus, totam modi. Illo minima, cumque explicabo aut
+                    asperiores possimus sapiente, facere fugiat eum odio, repudiandae vel in voluptates. esse? Placeat
+                    quod nisi in sit recusandae debitis qui.</p>
+            </div>
+            <div>
+                <p class="portfolio-text">Designed LPG extraction systems</p>
+            </div>
+            <div>
+                <p class="portfolio-text">Attending codingbootcamp</p>
+            </div>
         </div>
-        <div>
-            <h3 class="portfolio-text">four years of project managment experience</h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatum sit eius nihil iusto ad suscipit tenetur, ex neque aperiam repudiandae Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, inventore beatae! Voluptatibus, totam modi. Illo minima, cumque explicabo aut asperiores possimus sapiente, facere fugiat eum odio, repudiandae vel in voluptates. esse? Placeat quod nisi in sit recusandae debitis qui.</p>
-        </div>
-        <div><p class="portfolio-text">Designed LPG extraction systems</p></div>
-        <div><p class="portfolio-text">Attending codingbootcamp</p></div>
     </div>
 </body>
-
-<footer class="foot">
+<!-- footer is broken and not showing up at the bottom -->
+<footer id="foot">
     <div class="foot">
         <div></div>
         <div>

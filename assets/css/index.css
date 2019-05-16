@@ -19,6 +19,7 @@
     width: 40vw;
     padding: 14px 16px;
     background-color:rgb(37, 63, 50);
+    border-bottom: 0.1vw solid black;
     flex: 1;
 
   }
@@ -42,6 +43,7 @@
     text-align: center;
     padding: 10px 16px;
     border-left: 0.1vw solid black;
+    border-bottom: 0.1vw solid black;
     background-color:rgb(37, 63, 50);
     height: 4vw;
     font-size: 1.4;
@@ -70,11 +72,6 @@
   #active:hover {
     background-color: rgb(3, 5, 104);
   
-  }
-  .NavBar-Seperator{
-    height: 5px;
-    width: 100%;
-    background-color: black;      
   }
 .Main-Box {
     /* padding-left: 10vw; */

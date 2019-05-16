@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Daniel Stiegmans web Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="assets/css/contact.css">
-    </head>
+
+<head>
+    <title> Daniel Stiegmans web Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+</head>
 <!-- NAV BAR -->
 
 <header>
-        <!-- <h1 style="text-align: left; font-size: 2vw">Daniel Steigman</h1> -->
-        <div class="Nav">
-    
-            <div class="Nav-Bar-Flex">
-                <div>
-                    <h1 class="NB-Item">Daniel Steigman</h1>
-                </div>
-                <div class="NB-box"></div>
-                <div><a class="NB-link" href="index.html">About me</a></div>
-                <div><a class="NB-link" href="porfolio.html"> Portfolio</a></div>
-                <div><a class="NB-link" id="active" href="contact.html"> Contact Me</a></div>
-            </div>
-    
-    
-    
+    <!-- .Nav sets the width and font family -->
+    <div class="Nav">
+        <!-- Nav-bar-flex creates a flexbox in a row -->
+        <div class="Nav-Bar-Flex">
+            <!-- Title LOGO ITEM -->
+            <div><h1 class="NB-Item">Daniel Steigman</h1></div>
+             <!-- Flexible box in the center to keep links right justified -->
+            <div class="NB-box"></div>
+            <div><a class="NB-link" href="index.html">About me</a></div>
+            <div><a class="NB-link" href="porfolio.html"> Portfolio</a></div>
+            <div><a class="NB-link" id="active" href="contact.html"> Contact Me</a></div>
         </div>
-        <!-- <hr/> -->
-    </header>
-    
-    
-    <!-- Nav Bar END******************************************* -->
-    <br><br><br><br><br>
-    <br><br>
-    <br><br>
-    
-    <body>
-  
+
+
+
+    </div>
+    <!-- <hr/> -->
+</header>
+
+
+<!-- Nav Bar END******************************************* -->
+
+<body>
+    <!-- padds the main outer box and sets the background -->
+    <div class="container">
+        <!-- creates the main box for contact info -->
         <div class="contact-page">
+            <!-- specific contact info above form -->
             <div class="contact-info">
                 <h2>Contact info</h2>
                 <ul id="contact-info">
@@ -45,49 +47,54 @@
                 </ul>
 
             </div>
+            <!-- contact form  NEEDS FORMATING -->
             <div class="contact-form">
-                    <form action="action_page.php">
-                  
-                      <label for="fname">First Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  
-                      <label for="lname">Last Name</label>
-                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                      
-                      <label for="phone">phone number</label>
-                      <input type="text" id="phone" name="phone" placeholder="phone number..">
-                  
-                      <label for="country">Country</label>
-                      <select id="country" name="country">
+                <form action="action_page.php">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="phone">phone number</label>
+                    <input type="text" id="phone" name="phone" placeholder="phone number..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
                         <option value="australia">Australia</option>
                         <option value="canada">Canada</option>
                         <option value="usa">USA</option>
-                      </select>
-                  
-                      <label for="subject">Subject</label>
-                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                  
-                      <input type="submit" value="Submit">
-                  
-                    </form>
-                  </div>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
 
 
 
         </div>
-    </body>
-    <br><br>
-    <br><br><br>
-    <br><br><br><br><br>
-    <br><br>
-    <footer>
-        <div style="padding: 2vw; background-color: teal"> 
-            <div></div>
-            <div><p> Copywrite 2019 dual4Technologies all rights reserved</p></div>
-            <div></div>
+    </div>
+</body>
 
+
+
+<!-- footer BROKEN -->
+<footer class="foot">
+        <div class="foot">
+            <div></div>
+            <div>
+                <p> Copywrite 2019 dual4Technologies all rights reserved</p>
+            </div>
+            <div></div>
+    
         </div>
-        
+    
     </footer>
 
 
