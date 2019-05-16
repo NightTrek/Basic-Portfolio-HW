@@ -26,7 +26,7 @@
   .NB-Item {
     border-right: 1px solid black;
     background-color: teal;
-    font-size: 2vw;
+    font-size: 3vw;
     font-family: Arial, Helvetica, sans-serif;
     height: 4vw;
     padding: 14px 16px;
@@ -36,7 +36,7 @@
   .NB-link{
     /* float: right; */
     display: block;
-    font-size: 1vw;
+    font-size: 1.5vw;
     color: white;
     text-align: center;
     padding: 14px 16px;
