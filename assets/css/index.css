@@ -83,8 +83,6 @@
   /* background-color: aqua; */
   display: relative;
   background-image: url("../img/portfolio-background.PNG");
-  
-
 }
 
 .content {
@@ -96,7 +94,7 @@
   margin: 0 auto;
   margin-top: 20vh;
   width: 80%;
-  height: 50%;
+  height: 78%;
   top: 50%;
   left: 50%;
   background: rgb(24, 43, 43);
@@ -129,6 +127,9 @@
 
 #box-text{
   border: 5px solid black;
+  margin-left: 30%;
+  margin-right: 5%;
+  margin-bottom: 2%;
 }
 
 

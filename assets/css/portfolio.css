@@ -71,18 +71,19 @@
     background-color: rgb(3, 5, 104);
   
   }
-.Main-Box {
-    /* padding-left: 10vw; */
-    background-color: rgb(134, 164, 221);
-    width: 960px;
-    text-align: center;
+
+.background{
+  /* background-color: aqua; */
+  display: relative;
+  background-image: url("../img/portfolio-background.PNG");
 }
+
 .Outer-box{
 padding-top: 10vw;
 padding-bottom: 10vw;
 margin: 0 auto;
 width: 100%;
-background-color: rgb(134, 164, 221);
+background-image: url("../img/portfolio-background.PNG");
 }
 
 .portfolio{
