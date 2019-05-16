@@ -96,6 +96,7 @@ background-color: rgb(134, 164, 221);
   background-color: rgb(34, 65, 65);
   width: 960px;
   height: 1000px;
+  max-height: 40vw;
 }
 .portfolio > div {
   background-color:rgb(62, 99, 99);
@@ -112,7 +113,7 @@ background-color: rgb(134, 164, 221);
 }
 
  
-.foot{
+/* .foot{
   position:absolute;
   bottom: 0;
   left: 0;
@@ -120,12 +121,12 @@ background-color: rgb(134, 164, 221);
   background-color: teal;
   padding: 2vw;
 
-}
-/* #foot{
+} */
+#foot{
   position:absolute;
-  bottom: 0;
+  bottom: -0.1;
   left: 0;
   right: 0;
   background-color: teal;
   padding: 2vw;
-} */
+}

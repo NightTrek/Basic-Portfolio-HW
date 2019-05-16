@@ -91,7 +91,8 @@
   margin: 0 auto;
   padding-top: 4vw;
   text-align: center;
-  background-color: aqua;
+  /* background-color: rgb(85, 129, 129); */
+  border: 10px solid rgb(85, 129, 129);
 
 }
 
@@ -110,6 +111,7 @@
   display: flex;
   flex: 1;
   width: 25vw;
+  border: 10px solid rgb(85, 129, 129);
 }
 
 input[type=text], select, textarea {
@@ -140,7 +142,7 @@ input[type=submit]:hover {
   padding-top: 3px;
   position:absolute;
   margin-bottom: 0;
-  bottom: 0;
+  bottom: -0.1;
   left: 0;
   right: 0;
   background-color: teal;
