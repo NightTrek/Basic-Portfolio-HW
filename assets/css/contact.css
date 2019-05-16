@@ -52,6 +52,7 @@
     flex-wrap: wrap;
     background-color: teal;
     width: 100%;
+    position: fixed;
   }
   
   

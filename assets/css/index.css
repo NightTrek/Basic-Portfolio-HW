@@ -5,7 +5,6 @@
 }
 
 .NavBar {
-    list-style-type: none;
     margin: 0;
     padding:0;
     overflow: hidden;
@@ -55,6 +54,7 @@
     flex-wrap: wrap;
     background-color: teal;
     width: 100%;
+    position: fixed;
   }
   
   .NB-link:hover:not(#active) {
