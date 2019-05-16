@@ -107,7 +107,7 @@
   padding-top: 4vw;
   display: flex;
   flex: 1;
-  width: 10vw;
+  width: 25vw;
 }
 
 input[type=text], select, textarea {
@@ -135,10 +135,14 @@ input[type=submit]:hover {
 }
  
 .foot{
+  padding-top: 3px;
   position:absolute;
+  margin-bottom: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: teal;
   padding: 2vw;
 }
+
+ 
