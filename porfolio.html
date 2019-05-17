@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="background">
 
 <head>
     <title>Portfolio page</title>
@@ -18,7 +18,9 @@
         <!-- Nav-bar-flex creates a flexbox in a row -->
         <div class="Nav-Bar-Flex">
             <!-- Title LOGO ITEM -->
-            <div><h1 class="NB-Item">Daniel Steigman</h1></div>
+            <div>
+                <h1 class="NB-Item">Daniel Steigman</h1>
+            </div>
             <!-- Flexible box in the center to keep links right justified -->
             <div class="NB-box"></div>
             <div><a class="NB-link" href="index.html">About me</a></div>
@@ -39,43 +41,64 @@
 
 <body>
     <!-- Main page pox which sets 960px width and stages the porfolio flexbox in the middle -->
-    <div class="Outer-box">
-        <!-- portfolio flex box flexible rows -->
-        <div class="portfolio">
-            <div>
-                <h3 class="portfolio-header">won a hackothon with sense.ly</h3>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolore natus quam. Eum, recusandae?
-                    Nam iure cupiditate Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam officia
-                    fugiat adipisci impedit, quaerat ex minus ea ullam itaque ducimus omnis, fuga similique laborum
-                    exercitationem id doloremque facere amet vel? fuga, non porro exercitationem, ea magni alias
-                    assumenda vero quam commodi quibusdam esse.</p>
-            </div>
-            <div>
-                <h3 class="portfolio-text">four years of project managment experience</h3>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatum sit eius nihil iusto ad
-                    suscipit tenetur, ex neque aperiam repudiandae Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Voluptate, inventore beatae! Voluptatibus, totam modi. Illo minima, cumque explicabo aut
-                    asperiores possimus sapiente, facere fugiat eum odio, repudiandae vel in voluptates. esse? Placeat
-                    quod nisi in sit recusandae debitis qui.</p>
-            </div>
-            <div>
-                <p class="portfolio-text">Designed LPG extraction systems</p>
-            </div>
-            <div>
-                <p class="portfolio-text">Attending codingbootcamp</p>
+    <div class="background">
+        <div class="content">
+            <div class="Outer-box">
+                <!-- portfolio flex box flexible rows -->
+                <h1 id="portfolio-header">Portfolio page</h1>
+                <div class="portfolio">
+                    <div>
+                        <h3 class="portfolio-header">won a hackothon with sense.ly</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolore natus quam. Eum,
+                            recusandae?
+                            Nam iure cupiditate Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                            officia
+                            fugiat adipisci impedit, quaerat ex minus ea ullam itaque ducimus omnis, fuga similique
+                            laborum
+                            exercitationem id doloremque facere amet vel? fuga, non porro exercitationem, ea magni alias
+                            assumenda vero quam commodi quibusdam esse.</p>
+                            <img src="http://sensely.com/wp-content/uploads/2017/04/SENSELY-HORIZONTAL-TRANSPARENT-2.png" alt="sense.ly logo" class="portfolio-img" height="40%" width="60%">
+                    </div>
+                    <div>
+                        <h3 class="portfolio-text">four years of project managment experience</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatum sit eius nihil iusto
+                            ad
+                            suscipit tenetur, ex neque aperiam repudiandae Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit. Voluptate, inventore beatae! Voluptatibus, totam modi. Illo minima, cumque explicabo
+                            aut
+                            asperiores possimus sapiente, facere fugiat eum odio, repudiandae vel in voluptates. esse?
+                            Placeat
+                            quod nisi in sit recusandae debitis qui.</p>
+                            <img src="https://bhogart.com/wp-content/uploads/2016/03/BHOgart-BFE-hydrocarbon-extractor-kit-1.jpg" alt="Bhogart photo" class="portfolio-img" height="50%" width="50%">
+
+                    </div>
+                    <div>
+                        <h3 class="portfolio-text">Designed LPG extraction systems</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium eaque quisquam maiores itaque, saepe laborum iste alias, ipsum at est tempora dicta! Perspiciatis Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officia obcaecati debitis facere, vitae voluptas! Deleniti, expedita magni facilis sunt perspiciatis aliquid error fuga voluptatibus ullam unde. Iusto, laudantium nemo? reprehenderit hic aut nostrum magnam accusantium necessitatibus!</p>
+                        <img src="./assets/img/rsz_img_0110.png" alt="Extracto photo" class="portfolio-img" height="54%" width="45%">
+                    </div>
+                    <div>
+                        <h3 class="portfolio-text">Attending codingbootcamp</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quae nostrum modi dolor veritatis velit doloribus laborum obcaecati id, beatae nam quisquam officia exercitationem distinctio maiores? Enim eum quas animi. adipisicing elit. Sit soluta ex totam sequi, veritatis architecto, corporis, dolores porro consectetur ad voluptatum? Ad, libero! Sapiente ducimus ea voluptatibus modi aliquid odio!</p>
+                        <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/2557/s200/ucberkleyextension.png" alt="UCB logo" class="portfolio-img" height="40%" width="40%">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
+<br>
 <!-- footer is broken and not showing up at the bottom -->
 <footer>
-    <div id="foot">
-        <div>
-            <p> Copywrite 2019 dual4Technologies all rights reserved</p>
+        <div class="foot">
+            <div>
+                <p> Copywrite 2019 dual4Technologies all rights reserved</p>
+            </div>
+    
         </div>
-    </div>
-
-</footer>
+    
+    </footer>
 
 
 
