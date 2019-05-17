@@ -16,8 +16,10 @@
         <!-- Nav-bar-flex creates a flexbox in a row -->
         <div class="Nav-Bar-Flex">
             <!-- Title LOGO ITEM -->
-            <div><h1 class="NB-Item">Daniel Steigman</h1></div>
-             <!-- Flexible box in the center to keep links right justified -->
+            <div>
+                <h1 class="NB-Item">Daniel Steigman</h1>
+            </div>
+            <!-- Flexible box in the center to keep links right justified -->
             <div class="NB-box"></div>
             <div><a class="NB-link" href="index.html">About me</a></div>
             <div><a class="NB-link" href="porfolio.html"> Portfolio</a></div>
@@ -45,31 +47,33 @@
                     <li class="contact-data">Mobile phone: 650-388-8615</li>
                     <li class="contact-data">Email: Daniels@dual4t.com</li>
                     <li class="contact-data">Ethereum address: 0x206cADc6F2493c4082d029D6abC5a884708CCAf5</li>
+                    <li> <img src="./assets/img/metamask-eth-input.PNG" alt="Ether address barcode"></li>
                 </ul>
+
 
             </div>
             <!-- contact form  NEEDS FORMATING -->
             <div class="contact-form">
                 <form action="action_page.php">
 
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-                    <label for="lname">Last Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">>
                     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                    <label for="phone">phone number</label>
                     <input type="text" id="phone" name="phone" placeholder="phone number..">
-
-                    <label for="country">Country</label>
+                    <br>
+                    <label for="country" id="country">Country</label>
+                    <br>
                     <select id="country" name="country">
+                        <option value="California">California</option>
                         <option value="australia">Australia</option>
                         <option value="canada">Canada</option>
                         <option value="usa">USA</option>
                         <option value="spain">Spain</option>
+                        <option value="czech">Czech</option>
+                        <option value="switzerland">Switzerland</option>
+                        <option value="mexico">mexico</option>
                     </select>
 
-                    <label for="subject">Subject</label>
                     <textarea id="subject" name="subject" placeholder="Write something.."
                         style="height:200px"></textarea>
 
@@ -86,16 +90,16 @@
 
 <!-- footer BROKEN -->
 <footer class="foot">
-        <div class="foot">
-            <div></div>
-            <div>
-                <p> Copywrite 2019 dual4Technologies all rights reserved</p>
-            </div>
-            <div></div>
-    
+    <div class="foot">
+        <div></div>
+        <div>
+            <p> Copywrite 2019 dual4Technologies all rights reserved</p>
         </div>
-    
-    </footer>
+        <div></div>
+
+    </div>
+
+</footer>
 
 
 
