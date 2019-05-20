@@ -83,6 +83,7 @@
 .background{
   /* background-color: aqua; */
   display: relative;
+  height: 100vh;
   background-image: url("../img/portfolio-background.PNG");
 }
 
@@ -97,6 +98,7 @@
   padding-bottom: 10%;
   margin: 0 auto;
   margin-top: 20vh;
+  margin-bottom: 10vh;
   width: 80%;
   height: 78%;
   top: 50%;
@@ -145,6 +147,6 @@
     left: 0;
     right: 0;
     background-color: teal;
-    padding: 2vw;
+    height: 50px;
 
   }
