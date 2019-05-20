@@ -87,11 +87,14 @@
 }
 
 .content {
-  height: 100vh;
-  display: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 .Outer-box{
+  flex: 1 0 auto;
   padding-top: 2.5%;
+  padding-bottom: 10%;
   margin: 0 auto;
   margin-top: 20vh;
   width: 80%;
@@ -137,7 +140,7 @@
 
  
   .foot{
-    position:absolute;
+    flex-shrink: 0;
     bottom: -0.1;
     left: 0;
     right: 0;

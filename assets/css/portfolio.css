@@ -84,25 +84,29 @@
 
 .background{
   /* background-color: aqua; */
-  display: relative;
+  display: absolute;
   background-image: url("../img/portfolio-background.PNG");
 }
 
 .content {
-  height: 300vh;
-  display: relative;
+  /* margin-bottom: -50px; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 .Outer-box{
+  flex: 1 0 auto;
   padding-top: 2.5%;
   margin: 0 auto;
-  margin-top: 20vh;
+  margin-top: 100px;
   width: 80%;
   height: 280vh;
+  padding-bottom: 50px;
   top: 50%;
   left: 50%;
   background: rgb(24, 43, 43);
   display: relative;
-  flex-flow: column wrap;
+  /* flex-flow: column wrap; */
 }
 
 #portfolio-header{
@@ -117,7 +121,7 @@
 .portfolio{
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding-top: 1%;
-  padding-bottom: 50%;
+  
   padding-left: 3;
   padding-right: 3;
   border: 5px solid black;
@@ -127,8 +131,7 @@
   margin: 0 auto;
   background-color: rgb(34, 65, 65);
   width: 80%;
-  height: 100%;
-  max-height: 60vw;
+  height: 90%;
 }
 .portfolio > div {
   background-color:rgb(62, 99, 99);
@@ -138,8 +141,7 @@
   margin-left: 5vw;
   margin-right: 5vw;
   text-align: center;
-  /* padding-left: 13%; */
-  /* line-height: 75px; */
+  padding-bottom: 3%;
   font-size: 12px;
   justify-content: center;
   font-family: 'Righteous';
@@ -150,14 +152,32 @@
 }
 
 
-
+.push{
+  height: 50px;
+}
  
   .foot{
-    position:absolute;
+    /* position:absolute; */
+    flex-shrink: 0;
     bottom: -0.1;
     left: 0;
     right: 0;
     background-color: teal;
-    padding: 2vw;
+    /* padding: 2vw; */
+    margin-top: -50px;
+    height: 50px;
 
+  }
+
+  @media screen and (max-width: 550px) {
+    .Outer-box {
+      height: 2000px;
+    }
+    .portfolio{
+      height: 1900px;
+      /* padding-bottom: 15%; */
+    }
+    .foot{
+      bottom: 0%;
+    }
   }

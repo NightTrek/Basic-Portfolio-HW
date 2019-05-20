@@ -85,22 +85,26 @@
  .container{
   padding-top: 10vw;
   padding-bottom: 10vw;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   background-image: url("../img/portfolio-background.PNG");
  }
  
 .contact-page{
+  flex: 1 0 auto;
   margin: 0 auto;
   background-color: teal;
   display: flex;
   flex-direction: row;
-  width: 960px;
+  /* width: 960px; */
 }
 
 .contact-info{
   height: 100vh;
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
-  padding-top: 4vw;
+  padding-top: 4%;
   text-align: center;
   /* background-color: rgb(85, 129, 129); */
   border: 10px solid  rgb(24, 43, 43);
@@ -113,7 +117,9 @@
 }
 
 .contact-data{
-  padding-bottom: 5%
+  padding-bottom: 5%;
+  width: 50%;
+  word-wrap: break-word;
 }
 
 .contact-form{
@@ -121,7 +127,7 @@
   padding-top: 4vw;
   display: flex;
   flex: 1;
-  width: 25vw;
+  width: 50%;
   border: 10px solid  rgb(24, 43, 43);
 }
 
@@ -157,14 +163,19 @@ input[type=submit]:hover {
  
 .foot{
   padding-top: 3px;
-  position:absolute;
+  flex-shrink: 0;
   margin-bottom: 0;
   bottom: -0.1;
   left: 0;
   right: 0;
   background-color: teal;
-  padding: 2vw;
   width: 100%
+}
+
+@media screen and (max-width: 550px) {
+  .contact-page{
+    flex-direction: column;
+  }
 }
 
  
